@@ -2,7 +2,7 @@ name: 'Banco web - CI'
 
 on:
   schedule:
-    - cron: '51 9 * * *' # Executa todos os dias às 10:00 UTC
+    - cron: '0 13 * * *' # Executa todos os dias às 10:00 UTC
 
 jobs:
   tests:
