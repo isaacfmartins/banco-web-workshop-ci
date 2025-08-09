@@ -1,8 +1,8 @@
 name: 'Banco web - CI'
 
-# gatilhos / triggers
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '51 9 * * *' # Executa todos os dias às 10:00 UTC
 
 jobs:
   tests:
